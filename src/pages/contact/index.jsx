@@ -17,11 +17,11 @@ export default function Contact() {
         />
         <ItemContact 
           IconFa={FaInstagram} 
-          LinkContact="https://www.instagram.com/william_lucass_/" 
+          LinkContact="https://www.instagram.com/mateus00dias/" 
         />
         <ItemContact 
           IconFa={FaEnvelope} 
-          LinkContact="william.dev.contato@gmail.com" 
+          LinkContact="mfdprofissional@gmail..com" 
         />
       </Content>
     </Container>
