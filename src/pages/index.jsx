@@ -8,17 +8,17 @@ export default function Home() {
      <Content>
       <Infos>
         <Name>Olá, sou Mateus Dias</Name>
-        <Function>FullStack Developer</Function>
+        <Function>Aprendendo</Function>
         <Intro>Graduando em Sistemas de Informação, 
-          Já tive experiência em desenvolvimento Web
-          (React,Java, C, C++, C#, R, MySql, JS e outros).
+          Já tive experiência em desenvolvimento Web, mobile com os framework
+          React,React Native e com as Linguagens (Java, C, C++, C#, R, MySql, JS e outros).
         </Intro>
         <Link href="projects">
           <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
         </Link>
       </Infos>
       <Logo>
-        <Img src="/images/logo.png" alt="logo" />
+        <Img src="/images/fotoi.png" alt="logo" />
       </Logo>
      </Content>
    </Container>

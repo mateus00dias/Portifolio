@@ -78,8 +78,8 @@ export const Logo = styled.div`
   justify-content: center;
 
   img {
-    width: 25rem;
-    height: 25rem;
+    width: 35rem;
+    height: 35rem;
   }
 
   @media (max-width: 760px) {
