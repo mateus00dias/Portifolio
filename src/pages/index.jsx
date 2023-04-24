@@ -1,6 +1,8 @@
 import { FaArrowRight } from 'react-icons/fa'
 import { Container, Content, Infos, Name, Function, Intro, LinkProjects, Logo, Img } from '../../styles/indexStyle'
 import Link from 'next/link'
+import styles from './styles.module.css';
+
 
 export default function Home() {
   return (
@@ -13,12 +15,14 @@ export default function Home() {
           Já tive experiência em desenvolvimento Web, mobile com os framework
           React,React Native e com as Linguagens (Java, C, C++, C#, R, MySql, JS e outros).
         </Intro>
-        <Link href="projects">
-          <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
-        </Link>
+        <div className={styles.logo}>
+          <Link href="projects" >
+            <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
+          </Link>
+        </div>
       </Infos>
       <Logo>
-        <Img src="/images/fotoi.png" alt="logo" />
+        <Img src="/images/fotoi.png" alt="logo" className={styles.logo} />
       </Logo>
      </Content>
    </Container>

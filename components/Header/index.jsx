@@ -3,6 +3,7 @@ import { Container, Title, NavLinks, Ancora, Content, Menu, CloseSidebar, Conten
 import { FaBars, FaTimes } from 'react-icons/fa'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import styles from './styles.module.css';
 
 export default function Header() {
   const [sidebar, setSidebar] = useState(false)
@@ -28,17 +29,23 @@ export default function Header() {
         <Menu>
           <FaBars onClick={showSiderbar} />
         </Menu>
-        <NavLinks sidebar={sidebar}>
+        <NavLinks sidebar={sidebar}  >
           <CloseSidebar onClick={showSiderbar}><FaTimes /></CloseSidebar>
-          <Link href="/">
-            <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
-          </Link>
-          <Link href="projects">
-            <Ancora className={activeLink('projects')} onClick={showSiderbar}>Projetos</Ancora>
-          </Link>
-          <Link href="contact">
-            <Ancora className={activeLink('contact')} onClick={showSiderbar}>Contato</Ancora>
-          </Link>
+          <div className={styles.logo} >
+            <Link href="/">
+              <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
+            </Link>
+          </div>
+          <div className={styles.logo}>
+            <Link href="projects">
+              <Ancora className={activeLink('projects')} onClick={showSiderbar}>Projetos</Ancora>
+            </Link>
+          </div>
+          <div className={styles.logo}>
+            <Link href="contact">
+              <Ancora className={activeLink('contact')} onClick={showSiderbar}>Contato</Ancora>
+            </Link>
+          </div>
         </NavLinks>
       </Content>
     </Container>
