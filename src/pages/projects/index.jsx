@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from './style'
+import { FaGithub } from 'react-icons/fa'
+import ItemContact from '../../../components/ItemContact'
+
 
 export default function Projects() {
   const [itemsApi, setItemsApi] = useState([])
@@ -28,6 +31,7 @@ export default function Projects() {
     <Container>
      <Content>
        <Ul>
+        <h1>PROJETOS</h1>
         {itemsApi.map(item => (
           <Li key={item.id}>
             <TitleProject>{item.name.toUpperCase()}</TitleProject>
@@ -35,6 +39,12 @@ export default function Projects() {
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>
+            <a href="https://github.com/mateus00dias" target="_blank">
+              <ItemContact
+                IconFa={FaGithub}
+                LinkContact="Github"
+              />
+            </a>
           </Li>
         ))}
        </Ul>

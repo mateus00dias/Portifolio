@@ -13,6 +13,18 @@ body {
   text-align: -webkit-center;
 }
 
-a, button {
+a {
   cursor: pointer;
+  color: white;
+}
+button {
+  cursor:pointer;
+}
+
+li{
+  color: white;
+}
+
+h1 {
+  text-align: center;
 }
