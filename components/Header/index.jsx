@@ -32,23 +32,23 @@ export default function Header() {
         <NavLinks sidebar={sidebar}  >
           <CloseSidebar onClick={showSiderbar}><FaTimes /></CloseSidebar>
           <div className={styles.logo} >
-            <Link href="/">
+            <Link href="/" passHref>
               <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
             </Link>
           </div>
           <div className={styles.logo}>
-            <Link href="projects">
+            <Link href="projects" passHref>
               <Ancora className={activeLink('projects')} onClick={showSiderbar}>Projetos</Ancora>
             </Link>
           </div>
           <div className={styles.logo}>
-            <Link href="contact">
+            <Link href="contact" passHref >
               <Ancora className={activeLink('contact')} onClick={showSiderbar}>Contato</Ancora>
             </Link>
           </div>
 
           <div className={styles.logo}>
-            <Link href="sobre">
+            <Link href="sobre" passHref>
               <Ancora className={activeLink('sobre')} onClick={showSiderbar}>Sobre</Ancora>
             </Link>
           </div>
