@@ -16,7 +16,7 @@ export default function Home() {
           React,React Native e com as Linguagens (Java, C, C++, C#, R, Sql, JS e outros).
         </Intro>
         <div className={styles.logo}>
-          <Link href="projects" >
+          <Link href="projects" passHref >
             <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
           </Link>
         </div>
