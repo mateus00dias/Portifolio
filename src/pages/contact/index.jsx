@@ -3,6 +3,7 @@ import { Container, Content } from './style'
 import { FaLinkedin, FaFacebook, FaInstagram, FaEnvelope, FaWhatsapp, FaGithub } from 'react-icons/fa'
 import ItemContact from '../../../components/ItemContact'
 
+
 export default function Contact() {
   return (
     <Container>

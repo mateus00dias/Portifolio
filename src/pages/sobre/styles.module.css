@@ -1,0 +1,20 @@
+.titulo{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 100px;
+}
+
+.referencia{
+  text-align: center;
+}
+
+.author{
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive ; 
+}
+
+  

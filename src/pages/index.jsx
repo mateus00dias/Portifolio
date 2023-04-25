@@ -13,7 +13,7 @@ export default function Home() {
         <Function>Aprendendo</Function>
         <Intro>Graduando em Sistemas de Informação, 
           Já tive experiência em desenvolvimento Web, mobile com os framework
-          React,React Native e com as Linguagens (Java, C, C++, C#, R, MySql, JS e outros).
+          React,React Native e com as Linguagens (Java, C, C++, C#, R, Sql, JS e outros).
         </Intro>
         <div className={styles.logo}>
           <Link href="projects" >
@@ -24,6 +24,7 @@ export default function Home() {
       <Logo>
         <Img src="/images/fotoi.png" alt="logo" className={styles.logo} />
       </Logo>
+      
      </Content>
    </Container>
   )

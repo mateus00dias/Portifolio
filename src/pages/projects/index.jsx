@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from './style'
 import { FaGithub } from 'react-icons/fa'
 import ItemContact from '../../../components/ItemContact'
+import styles from './styles.module.css';
 
 
 export default function Projects() {
