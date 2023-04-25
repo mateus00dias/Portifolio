@@ -8,21 +8,21 @@ export default function Contact() {
   return (
     <Container>
       <Content>
-        <a href="https://www.linkedin.com/in/mateus-felipe-dias-b5014b1a1/" target="_blank" rel="noopener">
+        <a href="https://www.linkedin.com/in/mateus-felipe-dias-b5014b1a1/" target="_blank" rel="noreferrer">
           <ItemContact
             IconFa={FaLinkedin}
             LinkContact="Linkedin"
           />
         </a>
 
-        <a href="https://www.facebook.com/mateus.diistackki"target ="_blank" rel="noopener">
+        <a href="https://www.facebook.com/mateus.diistackki"target ="_blank" rel="noreferrer">
           <ItemContact
             IconFa={FaFacebook}
             LinkContact="Facebook"
           />
         </a>
 
-        <a href="https://www.instagram.com/mateus00dias/"target ="_blank" rel="noopener">
+        <a href="https://www.instagram.com/mateus00dias/"target ="_blank" rel="noreferrer">
           <ItemContact
             IconFa={FaInstagram}
             LinkContact="Instagram"
@@ -36,14 +36,14 @@ export default function Contact() {
           />
         </a>
 
-        <a href="https://github.com/mateus00dias" target="_blank" rel="noopener">
+        <a href="https://github.com/mateus00dias" target="_blank" rel="noreferrer">
           <ItemContact
             IconFa={FaGithub}
             LinkContact="Github"
           />
         </a>
 
-        <a href="https://wa.me/33998066207" target="_blank" rel="noopener">
+        <a href="https://wa.me/33998066207" target="_blank" rel="noreferrer">
           <ItemContact
             IconFa={FaWhatsapp}
             LinkContact="Whatsapp"

@@ -40,7 +40,7 @@ export default function Projects() {
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>
-            <a href="https://github.com/mateus00dias" target="_blank"  rel="noopener">
+            <a href="https://github.com/mateus00dias" target="_blank"  rel="noreferrer">
               <ItemContact
                 IconFa={FaGithub}
                 LinkContact="Github"
