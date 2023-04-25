@@ -32,7 +32,7 @@ export default function Projects() {
     <Container>
      <Content>
        <Ul>
-        <h1>PROJETOS</h1>
+        <h1 className={styles.titulo} >PROJETOS</h1>
         {itemsApi.map(item => (
           <Li key={item.id}>
             <TitleProject>{item.name.toUpperCase()}</TitleProject>
