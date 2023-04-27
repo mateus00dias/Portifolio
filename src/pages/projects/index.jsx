@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from './style'
+import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from '../../../styles/indexStyle'
 import { FaGithub } from 'react-icons/fa'
 import ItemContact from '../../../components/ItemContact'
 import styles from './styles.module.css';

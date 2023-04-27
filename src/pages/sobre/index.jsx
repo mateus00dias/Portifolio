@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Content } from './style'
+import { Container, Content } from '../../../styles/indexStyle'
 import styles from './styles.module.css';
 
 
