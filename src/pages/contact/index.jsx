@@ -40,8 +40,9 @@ export default function Contact() {
             IconFa={FaGithub}
             LinkContact="Github"
           />
+          
         </a>
-
+        
         <a href="https://wa.me/33998066207" target="_blank" rel="noopener noreferrer">
           <ItemContact
             IconFa={FaWhatsapp}
