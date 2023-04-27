@@ -9,7 +9,7 @@ export default function Home() {
    <Container>
      <Content>
       <Infos>
-        <Name>Olá, sou Mateus Dias</Name>
+        <Name>Olá, eu sou Mateus Dias</Name>
         <Function>Aprendendo</Function>
         <Intro>Graduando em Sistemas de Informação, 
           Já tive experiência em desenvolvimento Web, mobile com os framework
